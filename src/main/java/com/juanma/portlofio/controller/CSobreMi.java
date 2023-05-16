@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 
 @RequestMapping("/sobremi")
-@CrossOrigin(origins = {"https://juanma-c04c8.web.app/"})
+@CrossOrigin(origins = {"http://localhost:4200/"})
 public class CSobreMi {
 
     @Autowired

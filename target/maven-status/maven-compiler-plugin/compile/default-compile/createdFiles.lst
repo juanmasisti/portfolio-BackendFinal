@@ -22,6 +22,7 @@ com\juanma\portlofio\services\SFormacion.class
 com\juanma\portlofio\security\dto\LoginUsuario.class
 com\juanma\portlofio\entity\SobreMi.class
 com\juanma\portlofio\dto\ProyectoDto.class
+com\juanma\portlofio\controller\CImagen.class
 com\juanma\portlofio\PortlofioApplication.class
 com\juanma\portlofio\security\entity\Usuario.class
 com\juanma\portlofio\security\MainSecurity.class

@@ -22,7 +22,7 @@ RFormacion rFormacion;
     }
 
   // Devuelve una formacion
-      public Formacion getOne(long id){
+      public Formacion getOne(int id){
         Formacion form = rFormacion.findById(id).orElse(null);
         return form;
     }
@@ -33,19 +33,12 @@ RFormacion rFormacion;
     }     
       
       
-     public void delete(long id){
+     public void delete(int id){
         rFormacion.deleteById(id);
     }
     
     public void edit(Formacion form){
         rFormacion.save(form);
     }
-   
-    
-     public boolean existsById(long id){
-        return rFormacion.existsById(id);
-    }
-    
-
-
+  
 }
