@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 
     @RestController
     @RequestMapping("/imagen")
-    @CrossOrigin(origins = {"http://localhost:4200/"})
+    @CrossOrigin(origins = {"https://juanma-c04c8.web.app/"})
     
 public class CImagen {
     @Autowired
